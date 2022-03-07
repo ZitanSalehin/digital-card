@@ -1,0 +1,142 @@
+body{
+  background-color: #130410;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.img-prop{
+  width: 150px;
+  height: 150px;
+  clip-path: circle(50% at 50% 50%);
+  background-color: aqua;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+button{
+  height: 35px;
+  width: 120px;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: rgb(33, 36, 33);
+  border: 0;
+  color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+  background-color: rgb(228, 170, 94);
+  color: black;
+  animation: btn 2s linear infinite;
+  cursor: pointer;
+}
+@keyframes btn {
+  0%{background-color: darkorange;} 
+  25%{background-color: darkkhaki;}
+  50%{background-color: coral;} 
+  75%{background-color: chocolate;}
+  100%{background-color: darkorange;}
+}
+p{
+  text-align: justify;
+  padding: 20px;
+  font-size: 12px;
+  color: black;
+  background-color: lightsalmon;
+  margin-top: -10px;
+}
+h4{
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-bottom: -12px;
+  text-align: left;
+  background-color: lightsalmon;
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+.container{
+  margin:20px auto;
+  width: 300px;
+  height: 600px;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+background: linear-gradient(329deg, rgba(2,0,36,1) 0%, rgba(54,54,142,1) 31%, rgba(0,212,255,1) 100%);
+}
+footer{
+  background-color: lightgreen;
+  width: 100%;
+  height: 160px;
+  margin-top: -22px;
+  position: relative;
+}
+footer h4{
+  background-color: lightgreen;
+}
+footer p{
+  background-color: lightgreen;
+}
+footer ul li{
+  font-size: 12px;
+}
+footer img{
+  width: 60px;
+  height: 45px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  
+  animation: reactLogo 4s linear infinite;
+}
+@keyframes reactLogo {
+  0%{transform: rotate(0deg);} 
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(180deg);} 
+  75%{transform: rotate(270deg);}
+  100%{transform: rotate(360deg);}
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
